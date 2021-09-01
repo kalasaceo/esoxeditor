@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/textV4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Log Out"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_logoutmenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/textV3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Delete Account"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_deleteaccmenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/t_opt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Rate us"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_ratemenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:background="@drawable/group_info_popup_middle"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/xx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Compression"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/text4535"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Play Games with Friends"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/textV7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="QR code"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/textV5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="Reset Password"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_resetpwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textColor="#54000000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/rety"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_middle">
+
+                <TextView
+                    android:id="@+id/txtt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:backgroundTint="#90CAF9"
+                    android:paddingTop="14dp"
+                    android:text="Change Language"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_chnagelan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#90CAF9"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textAlignment="textStart"
+                    android:textColor="#54000000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

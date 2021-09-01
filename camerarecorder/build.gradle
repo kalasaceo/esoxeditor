@@ -1,0 +1,71 @@
+plugins {
+  id 'com.android.library'
+  id 'kotlin-android'
+  id 'kotlin-android-extensions'
+  id 'kotlin-kapt'
+}
+android {
+  compileSdkVersion 29
+
+  defaultConfig {
+    minSdkVersion 24
+    targetSdkVersion 29
+    multiDexEnabled true
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  lintOptions {
+    abortOnError false
+  }
+  buildToolsVersion BUILD_TOOLS_VERSION
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'androidx.appcompat:appcompat:1.0.0'
+  implementation 'com.google.android.material:material:1.4.0'
+  implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+  allprojects {
+    repositories {
+      maven { url 'https://jitpack.io' }
+      google()
+      jcenter()
+    }
+  }
+  implementation 'com.googlecode.mp4parser:isoparser:1.1.20'
+  implementation 'com.github.jaiselrahman:FilePicker:1.3.2'
+  implementation 'nl.dionsegijn:konfetti:1.3.2'
+  implementation 'com.github.dhaval2404:colorpicker:2.0'
+  implementation 'com.google.android.material:material:1.4.0'
+  implementation 'de.hdodenhof:circleimageview:3.1.0'
+  implementation 'com.factor:bouncy:1.8'
+  implementation 'com.kovachcode:timePickerWithSeconds:1.0.1'
+  implementation 'com.github.bumptech.glide:glide:4.12.0'
+  annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+  implementation 'com.flying.xiaopo:poiphoto:0.4.2'
+  implementation 'com.timqi.sectorprogressview:library:2.0.1'
+  implementation 'com.ramotion.paperonboarding:paper-onboarding:1.1.3'
+  implementation 'com.github.jayrambhia:CropperNoCropper:0.3.2'
+  implementation 'com.arthenica:mobile-ffmpeg-full:4.4@aar'
+  implementation 'com.github.Redman1037:TSnackBar:V2.0.0'
+  implementation 'com.giphy.sdk:ui:2.1.6'
+  implementation project(':puzzle')
+  implementation project(':SSffmpegVideoOperation')
+  implementation 'androidx.appcompat:appcompat:1.0.0'
+  implementation 'androidx.recyclerview:recyclerview:1.0.0'
+  implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+  implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
+  implementation 'com.squareup.picasso:picasso:2.5.2'
+  implementation 'com.danikula:videocache:2.7.0'
+  implementation 'com.google.firebase:firebase-messaging:21.0.0'
+  implementation platform('com.google.firebase:firebase-bom:26.7.0')
+  implementation 'com.google.firebase:firebase-database'
+  implementation 'top.zibin:Luban:1.1.2'
+}

@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.polites.com/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.daasuu.camerarecorder.PortrateActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/btn_flash"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:background="#00FFFFFF"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/torchoff"
+        android:text="NOTFALSHY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_switch_camera"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_switch_camera"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/dswitch"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_deviceupload"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/dupload"
+        android:stateListAnimator="@android:anim/bounce_interpolator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="#00FFFFFF"
+        android:onClick="@android:string/selectAll"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/cutthis"
+        android:stateListAnimator="@android:anim/bounce_interpolator"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@android:drawable/presence_offline" />
+
+    <ImageButton
+        android:id="@+id/btn_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="260dp"
+        android:background="#00FFFFFF"
+        android:onClick="@android:string/selectAll"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:soundEffectsEnabled="true"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_menu_add"
+        android:stateListAnimator="@android:anim/bounce_interpolator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@android:drawable/ic_menu_add" />
+
+    <LinearLayout
+        android:id="@+id/ly11"
+        android:layout_width="162dp"
+        android:layout_height="379dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="10dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:alpha="0.49"
+                android:scaleType="center"
+                android:translationX="-13dp"
+                app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+            <Button
+                android:id="@+id/opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:alpha="0.69"
+                android:background="#00000000"
+                android:fontFamily="@font/finger_paint"
+                android:text="Audio"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:translationX="-39dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="38dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.49"
+                android:scaleType="center"
+                android:translationX="-12dp"
+                app:srcCompat="@drawable/audrem" />
+
+            <Button
+                android:id="@+id/opt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.69"
+                android:background="#00000000"
+                android:fontFamily="@font/finger_paint"
+                android:text="Music"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:translationX="-39dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ppic_tex"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:alpha="0.49"
+                android:scaleType="center"
+                android:translationX="-7dp"
+                app:srcCompat="@drawable/etext" />
+
+            <Button
+                android:id="@+id/opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.69"
+                android:background="#00000000"
+                android:fontFamily="@font/finger_paint"
+                android:text="text"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:translationX="-39dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                app:srcCompat="@android:drawable/star_big_on" />
+
+            <Button
+                android:id="@+id/opt3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.69"
+                android:background="#00000000"
+                android:fontFamily="@font/finger_paint"
+                android:text="sticker"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:translationX="-14dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:alpha="0.49"
+                android:scaleType="center"
+                app:srcCompat="@drawable/elink" />
+
+            <Button
+                android:id="@+id/opt8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:alpha="0.69"
+                android:background="#00000000"
+                android:fontFamily="@font/finger_paint"
+                android:text="link"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:translationX="-14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:foregroundTint="#bbdefb"
+        android:indeterminate="false"
+        android:max="100"
+        android:minWidth="600dp"
+        android:minHeight="50dp"
+        android:progress="1"
+        android:translationY="-24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bFilter1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde1"
+                tools:src="@drawable/abcde1" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde5"
+                tools:src="@drawable/abcde5" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde14"
+                tools:src="@drawable/abcde14" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde4"
+                tools:src="@drawable/abcde4" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde6" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde9"
+                tools:src="@drawable/abcde9" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde13"
+                tools:src="@drawable/abcde13" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde12"
+                tools:src="@drawable/abcde12" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde7"
+                tools:src="@drawable/abcde7" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde11"
+                tools:src="@drawable/abcde11" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde15"
+                tools:src="@drawable/abcde15" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde8"
+                tools:src="@drawable/abcde8" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde10"
+                tools:src="@drawable/abcde10" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde2"
+                tools:src="@drawable/abcde2" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde3"
+                tools:src="@drawable/abcde3" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+
+            <ImageButton
+                android:id="@+id/bFilter2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:onClick="@android:string/selectAll"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/abcde10"
+                tools:src="@drawable/abcde10" />
+
+            <Space
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleX="10" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <include
+        android:id="@+id/video_proceed"
+        layout="@layout/pop_myreport_view"
+        android:layout_width="467dp"
+        android:layout_height="936dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_trecord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <LinearLayout
+        android:id="@+id/horiscro"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/backs"
+        android:orientation="vertical"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translationY="0dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#00000000" />
+        <include
+            android:id="@+id/menu"
+            layout="@layout/activity_choose_music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationY="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ssss"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="377dp"
+        android:background="@drawable/backs"
+        android:orientation="vertical"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translationY="0dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/stickodivider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#00000000" />
+
+        <include
+            android:id="@+id/sticko_menu"
+            layout="@layout/activity_choose_sticker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationY="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uploadvideo"
+        android:layout_width="8dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:text="Gallery"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_switch_camera"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <ImageButton
+        android:id="@+id/tovoiceopen"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/evoice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <EditText
+        android:id="@+id/text_on_video"
+        android:layout_width="382dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="77dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/finger_paint"
+        android:gravity="start|top"
+        android:hint="Enjoy your Stories"
+        android:inputType="textMultiLine"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_flash" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/finger_paint"
+        android:text="00:00"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/StartCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/finger_paint"
+        android:text="3"
+        android:textSize="197sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <ImageButton
+        android:id="@+id/btn_trecord"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:background="#00FFFFFF"
+        android:onClick="@android:string/selectAll"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:scaleType="fitXY"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/play_v"
+        android:stateListAnimator="@android:anim/bounce_interpolator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+</androidx.constraintlayout.widget.ConstraintLayout>

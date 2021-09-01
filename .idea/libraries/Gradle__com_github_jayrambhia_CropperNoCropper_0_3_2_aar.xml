@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jayrambhia:CropperNoCropper:0.3.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934441cc259614407349ec4c8917281c/jetified-CropperNoCropper-0.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934441cc259614407349ec4c8917281c/jetified-CropperNoCropper-0.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/934441cc259614407349ec4c8917281c/jetified-CropperNoCropper-0.3.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jayrambhia/CropperNoCropper/0.3.2/d6f8ac769452aac73d75050cd8ded4122c977f85/CropperNoCropper-0.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jayrambhia/CropperNoCropper/0.3.2/449f1c351928f9830f0e840365145619bd3701d3/CropperNoCropper-0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+  <style name="AppTheme.DatePicker" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorControlNormal">#00FFFFFF</item>
+  </style>
+  <style name="ButtonStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginStart">16dp</item>
+    <item name="android:layout_marginEnd">16dp</item>
+    <item name="android:paddingVertical" tools:ignore="NewApi">12dp</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+  <style name="Theme.AppCompat.SelfLucent" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:background">#33000000</item> <!-- Or any transparency or color you need -->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation</item>
+  </style>
+  <style name="Theme.AppCompat.Transaprent" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:background">#00FFFFFF</item> <!-- Or any transparency or color you need -->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation</item>
+  </style>
+  <style name="MenuStyle" parent="ThemeOverlay.AppCompat.Light">
+    <item name="android:colorBackground">@android:color/transparent</item>
+  </style>
+</resources>

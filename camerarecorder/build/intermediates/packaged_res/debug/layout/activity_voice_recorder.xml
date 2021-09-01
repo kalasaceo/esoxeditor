@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pusher4"
+    android:orientation="vertical">
+
+
+    <com.timqi.sectorprogressview.SectorProgressView
+        android:id="@+id/spv2"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="59dp"
+        app:bgColor="@color/black_translucent"
+        app:fgColor="#bbdefb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:percent="7"
+        app:startAngle="0" />
+
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <Button
+        android:id="@+id/tovoicespeech"
+        android:layout_width="182dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/black_translucent"
+        android:onClick="onClick"
+        android:text="start"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivNext"
+        android:layout_width="117dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="600dp"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:src="@drawable/abcde10"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#000" />
+
+    <LinearLayout
+        android:id="@+id/voice_modulator"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/backs"
+        android:orientation="vertical"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translationY="20dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#00000000" />
+
+        <include
+            android:id="@+id/musicproessing_video"
+            layout="@layout/activity_effects"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:translationY="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/voiceoption1"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/pusher2"
+        android:onClick="onClick"
+        android:text="cancel"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/voiceoption2"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/pusher2"
+        android:onClick="onClick"
+        android:text="Add Music"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

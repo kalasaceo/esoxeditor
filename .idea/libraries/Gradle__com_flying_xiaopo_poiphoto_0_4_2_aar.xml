@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.flying.xiaopo:poiphoto:0.4.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af1c5573dc6076640afe1da379467bf9/jetified-poiphoto-0.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af1c5573dc6076640afe1da379467bf9/jetified-poiphoto-0.4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af1c5573dc6076640afe1da379467bf9/jetified-poiphoto-0.4.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.flying.xiaopo/poiphoto/0.4.2/55030883f8a005856582344c53f51716e474c2da/poiphoto-0.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.flying.xiaopo/poiphoto/0.4.2/8e5e202d9091957ca46a3ee420c2bde4d79dbcef/poiphoto-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SimformSolutionsPvtLtd:SSffmpegVideoOperation:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feff3dc64646e428f8496e30388e39fc/jetified-SSffmpegVideoOperation-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feff3dc64646e428f8496e30388e39fc/jetified-SSffmpegVideoOperation-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/feff3dc64646e428f8496e30388e39fc/jetified-SSffmpegVideoOperation-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SimformSolutionsPvtLtd/SSffmpegVideoOperation/1.0.6/790bc1930fc06f6ce11f73b489e1717a9d6f13ef/SSffmpegVideoOperation-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

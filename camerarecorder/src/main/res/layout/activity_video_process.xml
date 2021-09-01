@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VideoProcessActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:id="@+id/audio1"
+            android:layout_width="107dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="120dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/trim" />
+
+        <ImageButton
+            android:id="@+id/audio5"
+            android:layout_width="169dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="120dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.713"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/imgtovid" />
+
+        <ImageButton
+            android:id="@+id/btnAddWaterMarkOnVideo"
+            android:layout_width="218dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="200dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/addstickers" />
+
+        <ImageButton
+            android:id="@+id/audio3"
+            android:layout_width="215dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="16dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/audio5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/addtextvid" />
+
+        <ImageButton
+            android:id="@+id/btnCombineVideos"
+            android:layout_width="213dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="240dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/addvideos" />
+
+        <ImageButton
+            android:id="@+id/btnMotion"
+            android:layout_width="220dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="40dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fastforward" />
+
+        <ImageButton
+            android:id="@+id/btnExtractAudio"
+            android:layout_width="254dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="70dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vidtoaud" />
+
+        <ImageButton
+            android:id="@+id/btnVideoConvertIntoGIF"
+            android:layout_width="249dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="40dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.639"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vidtogif" />
+
+        <ImageButton
+            android:id="@+id/btnReverseVideo"
+            android:layout_width="169dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="10dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.99"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reversevid" />
+
+        <ImageButton
+            android:id="@+id/btnMergeVideoAndAudio"
+            android:layout_width="289dp"
+            android:layout_height="141dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="240dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/audaddvid" />
+
+        <ImageButton
+            android:id="@+id/btnVideoRotateFlip"
+            android:layout_width="134dp"
+            android:layout_height="141dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rotvid" />
+
+        <ImageButton
+            android:id="@+id/btnRemoveAudioFromVideo"
+            android:layout_width="247dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="290dp"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/audrem" />
+
+        <ImageButton
+            android:id="@+id/btnCompressVideo"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="100dp"
+            android:visibility="gone"
+            android:background="#00FFFFFF"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_delete" />
+
+        <ImageButton
+            android:id="@+id/btnSetAspectRatio"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_rotate" />
+
+        <ImageButton
+            android:id="@+id/btnFadeInFadeOutVideo"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_scaling" />
+
+        <ImageButton
+            android:id="@+id/btnExtractVideo"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_scaling" />
+
+        <ImageButton
+            android:id="@+id/btnCombineImages"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_scaling" />
+
+        <ImageButton
+            android:id="@+id/btnMergeImageAndAudio"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_scaling" />
+
+        <ImageButton
+            android:id="@+id/btnCombineImageVideo"
+            android:layout_width="198dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="100dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/camera_scaling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

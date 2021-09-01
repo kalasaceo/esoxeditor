@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:2:1-181:12
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:2:1-181:12
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:2:1-181:12
+	package
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:4:5-71
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:4:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:7:22-76
+uses-feature#android.hardware.camera
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:8:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:9:19-67
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:11:22-78
+application
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:13:5-180:19
+	android:supportsRtl
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:17:9-40
+activity#com.daasuu.camerarecorder.ui.activity.VideoRecyclerActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:18:9-20:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:19:13-87
+activity#com.daasuu.camerarecorder.EntryActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:21:9-23:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:22:13-67
+activity#com.daasuu.camerarecorder.FirstEntryActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:24:9-26:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:25:13-72
+activity#com.daasuu.camerarecorder.VideoProcessActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:27:9-29:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:28:13-74
+activity#com.daasuu.camerarecorder.ZoomVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:30:9-32:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:31:13-71
+activity#com.daasuu.camerarecorder.ZoomMultiActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:33:9-35:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:34:13-71
+activity#com.daasuu.camerarecorder.StoryVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:36:9-38:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:37:13-72
+activity#com.daasuu.camerarecorder.AddGiffOnVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:39:9-42:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:42:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:40:13-76
+activity#com.daasuu.camerarecorder.BaseCameraActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:43:9-45:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:44:13-72
+activity#com.daasuu.camerarecorder.CommentActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:46:9-48:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:47:13-69
+activity#com.daasuu.camerarecorder.ZoomActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:49:9-51:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:50:13-66
+activity#com.daasuu.camerarecorder.CollageActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:52:9-54:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:53:13-69
+activity#com.daasuu.camerarecorder.StatusOptionsActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:55:9-57:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:56:13-75
+activity#com.daasuu.camerarecorder.ProfileCropper
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:58:9-60:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:59:13-68
+activity#com.daasuu.camerarecorder.CustomDateActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:61:9-64:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:63:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:62:13-72
+activity#com.daasuu.camerarecorder.FastAndSlowVideoMotionActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:67:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:66:13-84
+activity#com.daasuu.camerarecorder.SearchGiffActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:69:9-72:51
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:72:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:71:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:70:13-72
+activity#com.daasuu.camerarecorder.UpdateProfileActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:73:9-77:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:77:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:75:13-52
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:76:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:74:13-75
+activity#com.daasuu.camerarecorder.AddCommentActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:79:13-72
+activity#com.daasuu.camerarecorder.CombineImagesActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:81:9-83:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:82:13-75
+activity#com.daasuu.camerarecorder.ExtractAudioActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:85:13-74
+activity#com.daasuu.camerarecorder.ShowUpdateActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:87:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:90:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:89:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:88:13-72
+activity#com.daasuu.camerarecorder.AddTextOnVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:91:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:94:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:93:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:92:13-76
+activity#com.daasuu.camerarecorder.ReverseVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:95:9-98:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:98:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:97:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:96:13-74
+activity#com.daasuu.camerarecorder.MergeImageAndMP3Activity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:99:9-101:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:100:13-78
+activity#com.daasuu.camerarecorder.LikeActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:102:9-105:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:105:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:104:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:103:13-66
+activity#com.daasuu.camerarecorder.LikeActivity2
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:106:9-109:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:109:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:107:13-67
+activity#com.daasuu.camerarecorder.PopupMenuAcitivty
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:110:9-113:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:113:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:112:13-63
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:111:13-71
+activity#com.daasuu.camerarecorder.MessageActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:115:13-69
+activity#com.daasuu.camerarecorder.AddWaterMarkOnVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:120:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:119:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:118:13-81
+activity#com.daasuu.camerarecorder.SpeechManipulatorActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:124:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:123:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:122:13-79
+activity#com.daasuu.camerarecorder.CombineVideosActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:125:9-127:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:126:13-75
+activity#com.daasuu.camerarecorder.IntroActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:128:9-130:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:129:13-67
+activity#com.daasuu.camerarecorder.CombineImageAndVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:132:13-82
+activity#com.daasuu.camerarecorder.MergeAudioVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:137:13-49
+	android:theme
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:136:13-62
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:135:13-77
+activity#com.daasuu.camerarecorder.RemoveAudioFromVideoActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:138:9-140:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:139:13-82
+activity#com.daasuu.camerarecorder.ImageToVideoConvertActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:141:9-143:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:143:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:142:13-81
+activity#com.daasuu.camerarecorder.VideoRotateFlipActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:144:9-146:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:145:13-77
+activity#com.daasuu.camerarecorder.CutVideoUsingTimeActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:147:9-149:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:148:13-79
+activity#com.daasuu.camerarecorder.VideoToGifActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:150:9-152:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:151:13-72
+activity#com.daasuu.camerarecorder.ExtraOptionsActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:153:9-155:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:154:13-74
+activity#com.daasuu.camerarecorder.OptionsList
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:156:9-158:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:158:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:157:13-65
+activity#com.daasuu.camerarecorder.TrimMainActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:159:9-161:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:160:13-70
+activity#com.daasuu.camerarecorder.ProcessActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:162:9-164:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:164:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:163:13-69
+activity#com.daasuu.camerarecorder.MainFrameActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:165:9-167:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:167:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:166:13-71
+activity#com.daasuu.camerarecorder.PlaygroundActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:168:9-170:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:169:13-72
+activity#com.daasuu.camerarecorder.TrimmerActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:171:9-173:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:172:13-69
+activity#com.daasuu.camerarecorder.VoiceRecorderActivity
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:174:9-176:52
+	android:screenOrientation
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:175:13-75
+meta-data#preloaded_fonts
+ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:177:9-179:57
+	android:resource
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:179:13-54
+	android:name
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:178:13-43
+uses-sdk
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+		ADDED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml

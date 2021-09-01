@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrayerEditor.iml" filepath="$PROJECT_DIR$/.idea/modules/PrayerEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/PrayerEditor.SSffmpegVideoOperation.iml" filepath="$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/PrayerEditor.SSffmpegVideoOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoplayvideorecyclerview/PrayerEditor.autoplayvideorecyclerview.iml" filepath="$PROJECT_DIR$/.idea/modules/autoplayvideorecyclerview/PrayerEditor.autoplayvideorecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camerarecorder/PrayerEditor.camerarecorder.iml" filepath="$PROJECT_DIR$/.idea/modules/camerarecorder/PrayerEditor.camerarecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puzzle/PrayerEditor.puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/puzzle/PrayerEditor.puzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/PrayerEditor.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/PrayerEditor.sample.iml" />
+    </modules>
+  </component>
+</project>

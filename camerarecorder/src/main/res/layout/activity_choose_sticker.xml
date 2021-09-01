@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VideoProcessActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sticker8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti8" />
+
+                <ImageButton
+                    android:id="@+id/sticker7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti7" />
+
+                <ImageButton
+                    android:id="@+id/sticker5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti5" />
+
+                <ImageButton
+                    android:id="@+id/sticker6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/h1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sticker4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti4" />
+
+                <ImageButton
+                    android:id="@+id/sticker1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti1" />
+
+                <ImageButton
+                    android:id="@+id/sticker2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti2" />
+
+                <ImageButton
+                    android:id="@+id/sticker3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sticker9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti9" />
+                <ImageButton
+                    android:id="@+id/sticker10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti10" />
+                <ImageButton
+                    android:id="@+id/sticker11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti11" />
+                <ImageButton
+                    android:id="@+id/sticker12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti12" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sticker13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti13" />
+                <ImageButton
+                    android:id="@+id/sticker14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti14" />
+                <ImageButton
+                    android:id="@+id/sticker15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti15" />
+                <ImageButton
+                    android:id="@+id/sticker16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti16" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sticker17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti17" />
+                <ImageButton
+                    android:id="@+id/sticker18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti18" />
+                <ImageButton
+                    android:id="@+id/sticker19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti19" />
+                <ImageButton
+                    android:id="@+id/sticker20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    app:srcCompat="@drawable/emoti20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Redman1037:TSnackBar:V2.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a271d9b38d8c8d89771453e74fa51c3/jetified-TSnackBar-V2.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a271d9b38d8c8d89771453e74fa51c3/jetified-TSnackBar-V2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a271d9b38d8c8d89771453e74fa51c3/jetified-TSnackBar-V2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a271d9b38d8c8d89771453e74fa51c3/jetified-TSnackBar-V2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Redman1037/TSnackBar/V2.0.0/184ea12fc4ee07ea1bb4267bf222e19dc6ab4000/TSnackBar-V2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Redman1037/TSnackBar/V2.0.0/3dae1cc7229cc199e375ae290050076b73616b48/TSnackBar-V2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

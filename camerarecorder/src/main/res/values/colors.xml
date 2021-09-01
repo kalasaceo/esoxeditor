@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorWhite">#FFFFFF</color>
+  <color name="colorText">#53002F</color>
+
+  <!-- VIDEO TRIMMER -->
+  <color name="background_video_color">#2f3031</color>
+  <color name="background_progress_color">#6C6D6D</color>
+  <color name="progress_color">@color/colorPrimary</color>
+  <color name="line_color">#0DC143</color>
+  <color name="shadow_color">#FF000000</color>
+  <color name="line_button">#565758</color>
+  <color name="editText">#FFFF</color>
+  <color name="black_translucent">#50000000</color>
+  <color name="blacktext">#000</color>
+  <color name="WebLink">#005EFF</color>
+  <color name="background">#fff</color>
+  <color name="colorE">#c4c4c4</color>
+  <color name="card_back">#fff</color>
+  <color name="diffrentBack">#EDEDED</color>
+  <color name="othertext">#E5E4E9</color>
+  <color name="company_blue">#0064CF</color>
+  <color name="red">#FF1919</color>
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.daasuu.camerarecorder.FirstEntryActivity">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="17dp" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:text=" Toaster Account"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center|fill_horizontal|top"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/ii1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Our moto has never change and will never be."
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:background="#fff"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/rop_entername1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="  First Name"
+                android:inputType="text"
+                android:translationX="10dp"
+                android:translationY="10dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:background="#fff"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/rop_entername2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="  Last Name"
+                android:inputType="text"
+                android:translationX="10dp"
+                android:translationY="10dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:background="#fff"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/rop_enterpwd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="49dp"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="  Type Password"
+                android:inputType="textPassword"
+                android:translationX="10dp"
+                android:translationY="10dp" />
+
+            <ImageButton
+                android:id="@+id/rbtn_showpwd1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:translationY="6dp"
+                app:srcCompat="@drawable/pwd0" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:background="#fff"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/rop_enterpwd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="49dp"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="  Type Password"
+                android:inputType="textPassword"
+                android:translationX="10dp"
+                android:translationY="10dp" />
+
+            <ImageButton
+                android:id="@+id/rbtn_showpwd2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:translationY="6dp"
+                app:srcCompat="@drawable/pwd0" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:background="#fff"
+            app:cardCornerRadius="20dp">
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="398dp"
+                android:layout_height="126dp"
+                android:background="#00FFFFFF"
+                android:calendarTextColor="@color/WebLink"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:theme="@style/AppTheme.DatePicker"
+                android:translationX="-50dp">
+
+            </DatePicker>
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <HorizontalScrollView
+            android:layout_width="180dp"
+            android:layout_height="28dp"
+            android:translationX="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Famale" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/ii2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="By clicking Create an account, you agree to our Terms and Conditions"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/rbtn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/group_info_popup_norm"
+            android:backgroundTint="#9CCC65"
+            android:text="SIGN UP"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rbtn_createbus"
+        android:layout_width="314dp"
+        android:layout_height="30dp"
+        android:background="#00FFFFFF"
+        android:text="Create Your Toaster Account for a brand or business."
+        android:textAllCaps="false"
+        android:textColor="@color/WebLink"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/rbtn_enter2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="@drawable/group_info_popup_norm"
+        android:backgroundTint="#9CCC65"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:translationX="-10dp" />
+
+</LinearLayout>

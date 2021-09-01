@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.daasuu.camerarecorder.CommentActivity"
+    android:orientation="vertical"
+    android:foregroundGravity="bottom">
+
+
+    <TextView
+        android:id="@+id/first_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:text="Be the First o Comment here"
+        android:visibility="gone"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:translationY="-60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar
+        android:id="@+id/c_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#E5E4E9"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.factor.bouncy.BouncyRecyclerView
+            android:id="@+id/c_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="top"
+            android:orientation="vertical"
+            android:overScrollMode="ifContentScrolls"
+            app:allow_drag_reorder="false"
+            app:allow_item_swipe="true"
+            app:layout_constrainedHeight="true"
+            app:recyclerview_damping_ratio="DAMPING_RATIO_LOW_BOUNCY"
+            app:recyclerview_stiffness="STIFFNESS_LOW" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/first_c"
+        android:layout_width="146dp"
+        android:layout_height="151dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="270dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cadd0" />
+
+    <ImageButton
+        android:id="@+id/add_comment"
+        android:layout_width="94dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/verid" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

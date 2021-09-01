@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="192dp">
+
+            <ImageView
+                android:id="@+id/sppic_texmenu"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ppic" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_norm"
+                android:backgroundTint="#9CCC65">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:paddingLeft="67dp"
+                    android:paddingTop="10dp"
+                    android:text="Change profile Pic"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="37dp"
+                    android:layout_height="match_parent"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    app:srcCompat="@drawable/notice_select" />
+
+                <Button
+                    android:id="@+id/btn_status1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:textAlignment="textStart" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <TextView
+            android:id="@+id/whjedbwe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Status"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#FFFFFF"
+            android:outlineAmbientShadowColor="@android:color/black"
+            app:cardCornerRadius="20dp">
+
+            <EditText
+                android:id="@+id/mystatus"
+                android:layout_width="344dp"
+                android:layout_height="126dp"
+                android:background="#FFFFFF"
+                android:ems="6"
+                android:gravity="start|top"
+                android:hint="Your Status for Today"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r3y2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/group_info_popup_norm"
+                android:backgroundTint="#9CCC65">
+
+                <ImageView
+                    android:id="@+id/img_status2"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    app:srcCompat="@drawable/newlockoff" />
+
+                <TextView
+                    android:id="@+id/status2"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:paddingLeft="67dp"
+                    android:paddingTop="10dp"
+                    android:text="      Make Profile Private"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_status2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:textAlignment="textStart" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r6sgh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text4535"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="  Make public upload"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="200dp"
+                    android:paddingRight="20dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_gravity="top|start"
+            android:orientation="vertical"
+            android:paddingBottom="7dp">
+
+            <RelativeLayout
+                android:id="@+id/r6sghbc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text4535edb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="14dp"
+                    android:text="  Show Loading"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <Switch
+                    android:id="@+id/switch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="200dp"
+                    android:paddingRight="20dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
